@@ -1,0 +1,6 @@
+CategoryName,ZScore_Anomalies,IQR_Anomalies,IsolationForest_Anomalies
+CPU,1,5,3
+Mother Board,2,7,3
+RAM,2,8,3
+Storage,1,4,3
+Video Card,1,6,3
