@@ -1,0 +1,4 @@
+CategoryName,anomaly_count,avg_anomaly_value,min_anomaly_value,max_anomaly_value,total_months,anomaly_rate_%
+Mother Board,2,475.0,393.0,557.0,31,6.5
+RAM,2,283.5,233.0,334.0,27,7.4
+Storage,4,556.75,434.0,870.0,54,7.4
