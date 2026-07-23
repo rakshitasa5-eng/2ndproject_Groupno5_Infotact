@@ -1,6 +1,4 @@
-# 2ndproject
-## Supply Chain Analytics - Demand Forecasting & Anomaly Detection
-Week: 2
+# Week: 2
 Phase: Data Validation & Business Analysis
 Tools Used: Python, Pandas, NumPy, Matplotlib, Jupyter Notebook, Git, GitHub
 
