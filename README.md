@@ -750,20 +750,121 @@ Generated:
 
 ---
 
-## Status
+# Week 4 – Dashboard Development, Project Integration & Final Deployment
 
-✅ Week 3 completed successfully.
+## Objective
 
-Project is ready for Week 4 deployment and final dashboard development.
+The objective of Week 4 was to integrate all project components, develop the Streamlit dashboard, verify the project workflow, document business insights, and prepare the repository for final submission.
 
 ---
 
-## 22. Conclusion
+# My Responsibilities (Team Leader)
 
-During Week 2, I developed and validated the anomaly detection component of the Supply Chain Analytics project.
+- Integrated all project deliverables from Weeks 1–3.
+- Organized the final project folder structure.
+- Developed the Streamlit dashboard.
+- Verified notebooks and datasets.
+- Reviewed forecasting and anomaly detection outputs.
+- Updated project documentation.
+- Prepared the repository for final submission.
+- Coordinated final project integration.
 
-I implemented Z-Score, IQR, and Isolation Forest to identify unusual demand patterns across product categories.
+---
 
-The results from all three methods were compared, and a multi-method agreement strategy was used to prioritize higher-confidence anomaly candidates.
+# Work Completed
 
-The final datasets and summaries are now prepared to support the next stages of the project: demand forecasting in Week 3 and Streamlit application development in Week 4.
+## Project Integration
+
+- Organized project folders.
+- Verified all notebooks.
+- Verified output datasets.
+- Checked file naming consistency.
+- Prepared final project structure.
+
+---
+
+## Dashboard Development
+
+Developed a Streamlit dashboard containing:
+
+- Dataset Preview
+- Demand Trend Visualization
+- Anomaly Detection Results
+- Forecast Results
+- Business Insights
+
+Dashboard File
+
+- app.py
+
+---
+
+## Testing
+
+Validated:
+
+- Notebook execution
+- Dataset loading
+- CSV outputs
+- Charts
+- Dashboard functionality
+- Repository structure
+
+---
+
+## Documentation
+
+Updated:
+
+- README.md
+- Business Insights
+- Future Scope
+- Project Workflow
+
+---
+
+## Output Files
+
+- app.py
+- README.md
+- business_insights.md
+- requirements.txt
+
+---
+
+## Tools Used
+
+- Python
+- Streamlit
+- Pandas
+- Matplotlib
+- Jupyter Notebook
+- Git
+- GitHub
+
+---
+
+## Business Insights
+
+- Forecasting supports inventory planning.
+- Demand trends help reduce stock shortages.
+- Anomaly detection identifies unusual sales patterns.
+- Dashboard improves decision-making.
+- Historical demand assists future inventory optimization.
+
+---
+
+## GitHub Contributions
+
+- Dashboard development
+- Repository organization
+- Documentation updates
+- Project integration
+- Final testing
+- Final deployment
+
+---
+
+## Week 4 Outcome
+
+Successfully integrated the complete Supply Chain Analytics project, developed the dashboard, validated all deliverables, updated documentation, and prepared the project for final submission.
