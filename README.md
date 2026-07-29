@@ -654,16 +654,107 @@ Week 2 completes the anomaly detection component of the project.
 
 The next phase is:
 
-### Week 3 – Demand Forecasting
+# Week 3 – Demand Forecasting & Project Integration
 
-The next work will focus on:
+## Objective
+The objective of Week 3 was to prepare the demand forecasting pipeline by validating the forecasting dataset, creating chronological train-test splits, implementing a baseline forecasting model, reviewing project outputs, and preparing the project for advanced forecasting and final deployment.
 
-- Creating a baseline forecasting model.
-- Performing chronological train/test splitting.
-- Implementing a forecasting model such as ARIMA or Prophet.
-- Forecasting future product demand.
-- Evaluating model performance using MAPE and/or RMSE.
-- Preparing a future demand forecast for Streamlit integration.
+---
+
+## My Responsibilities (Team Leader)
+
+- Verified the forecasting-ready dataset.
+- Validated missing values and data quality.
+- Created chronological train and test datasets.
+- Implemented a Moving Average baseline forecasting model.
+- Evaluated forecasting results using performance metrics.
+- Generated forecasting visualizations.
+- Exported forecasting output files.
+- Reviewed project structure and documentation.
+- Coordinated project integration for the next phase.
+
+---
+
+## Work Completed
+
+### Dataset Validation
+- Loaded the forecasting-ready dataset.
+- Checked missing values.
+- Verified data types.
+- Ensured chronological ordering of records.
+- Validated product categories.
+
+### Train-Test Split
+- Created chronological train and test datasets.
+- Used an 80:20 split.
+- Prevented data leakage by maintaining chronological order.
+
+### Baseline Forecasting
+- Implemented a 3-month Moving Average forecasting model.
+- Generated baseline forecasts.
+- Compared actual demand with predicted demand.
+
+### Forecast Evaluation
+Calculated:
+
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- Mean Absolute Percentage Error (MAPE) (where applicable)
+
+### Visualization
+Generated:
+
+- Demand Trend Charts
+- Actual vs Forecast Comparison
+
+### Output Files
+
+- forecasting_ready_data.csv
+- train_cpu.csv
+- test_cpu.csv
+- moving_average_results_cpu.csv
+- forecast_evaluation.csv
+
+---
+
+## Tools Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Jupyter Notebook
+- Git & GitHub
+
+---
+
+## Key Outcomes
+
+- Forecasting dataset validated successfully.
+- Chronological train-test datasets created.
+- Moving Average baseline implemented successfully.
+- Forecast performance evaluated.
+- Project prepared for advanced forecasting and deployment.
+
+---
+
+## GitHub Contributions
+
+- Forecast dataset validation
+- Train-test split implementation
+- Moving Average forecasting
+- Forecast evaluation
+- Documentation updates
+- Repository maintenance
+
+---
+
+## Status
+
+✅ Week 3 completed successfully.
+
+Project is ready for Week 4 deployment and final dashboard development.
 
 ---
 
