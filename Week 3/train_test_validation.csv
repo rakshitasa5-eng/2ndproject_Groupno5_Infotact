@@ -1,0 +1,11 @@
+Check,Status
+Chronological Order,True
+Future Leakage,True
+Training Missing Values,"OrderDate       True
+CategoryName    True
+Quantity        True
+dtype: bool"
+Testing Missing Values,"OrderDate       True
+CategoryName    True
+Quantity        True
+dtype: bool"
