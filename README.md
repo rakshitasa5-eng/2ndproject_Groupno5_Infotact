@@ -776,14 +776,147 @@ The objective of Week 3 was to build the demand forecasting pipeline using histo
 
 Successfully developed the demand forecasting workflow, generated baseline and advanced forecasts, evaluated model performance, and prepared outputs for the final Streamlit dashboard.
 
-### Week 4 – Streamlit Deployment
+# Week 4 – Final Deployment & Dashboard
 
-The final application will allow stakeholders to:
+## Objective
 
-- Select product categories
-- View historical demand
-- Identify historical anomalies
-- View future demand forecasts
-- Interact with forecast settings
-- Support inventory and procurement decision-making
+The objective of Week 4 was to integrate all project modules, deploy the analytics dashboard, validate outputs, document findings, and prepare the project for final submission.
+
+---
+
+# Team Contributions
+
+## Member 1 – Team Leader
+
+### Responsibilities
+
+- Project integration
+- Repository management
+- Dashboard development
+- Documentation
+- Final testing
+- GitHub maintenance
+
+### Deliverables
+
+- app.py
+- README.md
+- Final project structure
+- Business insights
+- Final project validation
+
+---
+
+## Member 2
+
+### Responsibilities
+
+- Forecast validation
+- Future demand verification
+- Model performance review
+- Forecast output support
+
+### Deliverables
+
+- Forecast verification
+- Final forecasting outputs
+- Model evaluation review
+
+---
+
+## Member 3
+
+### Responsibilities
+
+- Dashboard visualization
+- Business recommendations
+- Chart improvements
+- Presentation support
+
+### Deliverables
+
+- Dashboard charts
+- Business insights
+- Final visualizations
+
+---
+
+# Overall Workflow
+
+1. Integrated Week 1–3 deliverables.
+2. Organized the project repository.
+3. Developed the Streamlit dashboard.
+4. Verified forecasting outputs.
+5. Reviewed anomaly detection results.
+6. Tested notebooks and dashboard.
+7. Updated documentation.
+8. Prepared business recommendations.
+9. Completed final repository review.
+10. Submitted the final project.
+
+---
+
+# Dashboard Features
+
+- Dataset Preview
+- Demand Trend
+- Anomaly Detection Results
+- Forecast Results
+- Business Insights
+
+---
+
+# Technologies Used
+
+- Python
+- Streamlit
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Statsmodels
+- Git
+- GitHub
+- Jupyter Notebook
+
+---
+
+# Deliverables
+
+## Dashboard
+
+- app.py
+
+## Documentation
+
+- README.md
+- requirements.txt
+
+## Datasets
+
+- forecasting_ready_data.csv
+- anomaly_summary.csv
+- future_demand_forecast.csv
+
+## Visualizations
+
+- Demand Trend
+- Forecast Comparison
+- Anomaly Detection Charts
+
+---
+
+# Business Insights
+
+- Demand forecasting improves inventory planning.
+- Seasonal demand patterns support better stock management.
+- Anomaly detection identifies abnormal sales activity.
+- Dashboard provides centralized business monitoring.
+- Historical analytics improves operational decisions.
+
+---
+
+# Week 4 Outcome
+
+Successfully integrated all project components, deployed the Streamlit dashboard, validated project outputs, documented business recommendations, and prepared the complete Supply Chain Analytics solution for final submission.
 
