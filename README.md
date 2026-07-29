@@ -640,15 +640,141 @@ Week 2 added:
 
 The next phases are:
 
-### Week 3 – Demand Forecasting
+# Week 3 – Demand Forecasting
 
-The project will:
+## Objective
 
-- Establish a baseline forecast
-- Perform chronological train/test splitting
-- Implement forecasting models such as ARIMA or Prophet
-- Generate future demand forecasts
-- Evaluate forecasting accuracy using MAPE and/or RMSE
+The objective of Week 3 was to build the demand forecasting pipeline using historical demand data, evaluate forecasting performance, and prepare forecasting outputs for the final dashboard.
+
+---
+
+# Team Contributions
+
+## Member 1 – Team Leader
+
+### Responsibilities
+
+- Dataset validation
+- Forecast dataset preparation
+- Train-test split
+- Moving Average baseline
+- Forecast evaluation
+- Documentation
+- GitHub integration
+
+### Deliverables
+
+- forecasting_ready_data.csv
+- train-test datasets
+- Moving Average results
+- README updates
+
+---
+
+## Member 2
+
+### Responsibilities
+
+- Stationarity testing
+- ADF Test
+- ARIMA model implementation
+- Model training
+- Forecast generation
+
+### Deliverables
+
+- ARIMA model
+- Future demand forecast
+- ARIMA prediction outputs
+
+---
+
+## Member 3
+
+### Responsibilities
+
+- Visualization
+- Forecast comparison charts
+- Business interpretation
+- Dashboard support
+
+### Deliverables
+
+- Trend charts
+- Forecast plots
+- Business insights
+
+---
+
+# Overall Workflow
+
+1. Prepared forecasting dataset.
+2. Validated dataset quality.
+3. Created chronological train-test split.
+4. Implemented Moving Average baseline.
+5. Performed stationarity testing.
+6. Developed ARIMA forecasting model.
+7. Generated future demand forecasts.
+8. Evaluated forecasting accuracy.
+9. Created visualization dashboards.
+10. Documented business recommendations.
+
+---
+
+# Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Scikit-learn
+- Statsmodels
+- GitHub
+- Jupyter Notebook
+
+---
+
+# Deliverables
+
+## Dataset
+
+- forecasting_ready_data.csv
+
+## Forecasting
+
+- train_data.csv
+- test_data.csv
+- moving_average_results.csv
+- arima_predictions.csv
+- future_demand_forecast.csv
+
+## Evaluation
+
+- MAE
+- RMSE
+- MAPE
+
+## Visualizations
+
+- Demand Trend
+- Actual vs Forecast
+- Future Demand Forecast
+
+---
+
+# Business Insights
+
+- Forecasting improves inventory planning.
+- Demand trends help optimize stock levels.
+- Seasonal demand can be anticipated.
+- Baseline forecasting provides a benchmark.
+- Advanced forecasting improves operational decision-making.
+
+---
+
+# Week 3 Outcome
+
+Successfully developed the demand forecasting workflow, generated baseline and advanced forecasts, evaluated model performance, and prepared outputs for the final Streamlit dashboard.
 
 ### Week 4 – Streamlit Deployment
 
@@ -661,14 +787,3 @@ The final application will allow stakeholders to:
 - Interact with forecast settings
 - Support inventory and procurement decision-making
 
----
-
-## 21. Week 2 Conclusion
-
-Week 2 successfully developed the statistical anomaly detection component of the Supply Chain Analytics project.
-
-Z-Score, IQR, and Isolation Forest were implemented category-wise and their results were compared to identify unusual monthly demand patterns.
-
-A multi-method agreement strategy was used to prioritize higher-confidence anomaly candidates, supporting the project's goal of identifying meaningful irregularities while reducing unnecessary alerts.
-
-The final anomaly datasets, summaries, and visualizations provide a strong foundation for Week 3 demand forecasting and Week 4 Streamlit dashboard development.
