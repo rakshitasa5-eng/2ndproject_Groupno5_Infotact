@@ -1,0 +1,6 @@
+CategoryName,Total_Records,Average_Demand,Maximum_Demand,ZScore_Anomalies,IQR_Anomalies,IsolationForest_Anomalies,Final_Anomalies
+CPU,54,89.83,584.0,1,5,3,1
+Mother Board,54,53.33,557.0,2,7,3,3
+RAM,54,22.02,334.0,2,8,3,3
+Storage,54,91.54,870.0,1,4,3,3
+Video Card,54,54.89,351.0,1,6,3,2
