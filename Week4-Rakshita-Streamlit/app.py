@@ -14,11 +14,22 @@ st.set_page_config(
 # Title
 # -------------------------------------------------
 st.title("📦 Supply Chain Analytics Dashboard")
-st.write("Week 4 - Streamlit Deployment and Final Polish")
+
+st.markdown("""
+### 👩‍💻 Developed by: **Rakshita SA**
+
+**Project:** Supply Chain Analytics – Demand Forecasting & Anomaly Detection
+
+**Week 4:** Streamlit Deployment and Final Polish
+""")
 
 # -------------------------------------------------
 # Load Data
 # -------------------------------------------------
+from pathlib import Path
+
+# Folder containing app.py
+BASE_DIR = Path(__file__).parent
 try:
     forecast = pd.read_csv("forecasting_ready_data.csv")
     future = pd.read_csv("future_demand_forecast.csv")
@@ -48,6 +59,8 @@ confidence = st.sidebar.slider(
 )
 
 st.sidebar.write(f"Selected Confidence: {confidence}%")
+st.sidebar.markdown("## 👩‍💻 Developer")
+st.sidebar.write("Rakshita SA")
 
 # -------------------------------------------------
 # Filter Dataset
@@ -128,5 +141,12 @@ st.success("""
 # -------------------------------------------------
 # Footer
 # -------------------------------------------------
-st.markdown("---")
-st.write("Supply Chain Analytics Project | Streamlit Dashboard")
+st.markdown("""
+### 👩‍💻 Developed by: **Rakshita SA**
+
+📧 Email: your_email@example.com
+
+🔗 GitHub: https://github.com/rakshitasa5-eng
+
+💼 LinkedIn: https://linkedin.com/in/rakshita-sa-98a749256
+""")
