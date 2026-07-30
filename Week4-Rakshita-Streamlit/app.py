@@ -28,16 +28,19 @@ st.markdown("""
 # -------------------------------------------------
 from pathlib import Path
 
-# Folder containing app.py
 BASE_DIR = Path(__file__).parent
+
+st.write("Current folder:", BASE_DIR)
+st.write("Files found:", [f.name for f in BASE_DIR.iterdir()])
+
 try:
     forecast = pd.read_csv("forecasting_ready_data.csv")
     future = pd.read_csv("future_demand_forecast.csv")
     anomaly = pd.read_csv("anomaly_summary.csv")
-except FileNotFoundError:
-    st.error("CSV files not found. Please place all CSV files in the same folder as app.py")
-    st.stop()
 
+except Exception as e:
+    st.error(f"Actual Error: {e}")
+    st.stop()
 # Convert date column
 forecast["OrderDate"] = pd.to_datetime(forecast["OrderDate"])
 
