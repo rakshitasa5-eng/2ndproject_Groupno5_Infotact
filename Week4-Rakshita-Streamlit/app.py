@@ -30,16 +30,13 @@ from pathlib import Path
 
 BASE_DIR = Path(__file__).parent
 
-st.write("Current folder:", BASE_DIR)
-st.write("Files found:", [f.name for f in BASE_DIR.iterdir()])
-
 try:
-    forecast = pd.read_csv("forecasting_ready_data.csv")
-    future = pd.read_csv("future_demand_forecast.csv")
-    anomaly = pd.read_csv("anomaly_summary.csv")
+    forecast = pd.read_csv(BASE_DIR / "forecasting_ready_data.csv")
+    future = pd.read_csv(BASE_DIR / "future_demand_forecast.csv")
+    anomaly = pd.read_csv(BASE_DIR / "anomaly_summary.csv")
 
 except Exception as e:
-    st.error(f"Actual Error: {e}")
+    st.exception(e)
     st.stop()
 # Convert date column
 forecast["OrderDate"] = pd.to_datetime(forecast["OrderDate"])
