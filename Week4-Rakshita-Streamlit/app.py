@@ -147,7 +147,7 @@ st.success("""
 st.markdown("""
 ### 👩‍💻 Developed by: **Rakshita SA**
 
-📧 Email: your_email@example.com
+📧 Email: rakshitasa5@gmail.com
 
 🔗 GitHub: https://github.com/rakshitasa5-eng
 
